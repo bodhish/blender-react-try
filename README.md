@@ -17,17 +17,17 @@ Install Blender 2.79 via PPA
 
 Then upgrade Blender
 
-'sudo apt-get update'
+`sudo apt-get update`
 
-'sudo apt-get install blender'
+`sudo apt-get install blender`
 
 5, Upload the blender file using scp
 
-`scp [source file] [username]@[destination server]:.'
+`scp [source file] [username]@[destination server]:.`
 
-Replace the bracketed [source file], [username] and [destination server] to match your local settings. So if the file was `test.blend` and your username on the remote sever is root and the destination sever is example.com, the command would be:
+Replace the bracketed `[source file]`, `[username]` and `[destination server]` to match your local settings. So if the file was `test.blend` and your username on the remote sever is root and the destination sever is example.com, the command would be:
 
-'scp test.blend root@example.com:.`
+`scp test.blend root@example.com:.`
 
 6, Render the file using the command
 
@@ -37,7 +37,7 @@ Replace the bracketed [source file], [username] and [destination server] to matc
 
 `scp [username]@[destination server]:[source file] [destination root]`
 
-Replace the bracketed [source file], [username] and [destination server] to match your local settings. So if the file was in the directory `/tmp/` and your username on the remote sever is root and the destination sever is example.com, the command would be:
+Replace the bracketed `[source file]`, `[username]` and `[destination server]` to match your local settings. So if the file was in the directory `/tmp/` and your username on the remote sever is root and the destination sever is example.com, the command would be:
 
 `scp root@example.com:/tmp/*.png . `
 
