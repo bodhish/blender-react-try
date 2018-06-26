@@ -43,3 +43,6 @@ Replace the bracketed `[source file]`, `[username]` and `[destination server]` t
 
 8, Destroy the Droplet in digital ocean.
 
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
